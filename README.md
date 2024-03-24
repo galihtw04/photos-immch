@@ -1,0 +1,2 @@
+# photos-immch
+Install immich
