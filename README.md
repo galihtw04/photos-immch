@@ -1,4 +1,4 @@
-![image](https://github.com/galihtw04/photos-immch/assets/96242740/02bab745-c3d9-47a2-8fea-62d9b23256e7)# photos-immch
+# photos-immch
 > immich server digunakan untuk server penyimpanan foto seperti google photos
 
 1. install docker on ubuntu
