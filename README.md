@@ -1,4 +1,4 @@
-# photos-immch
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/02bab745-c3d9-47a2-8fea-62d9b23256e7)# photos-immch
 > immich server digunakan untuk server penyimpanan foto seperti google photos
 
 1. install docker on ubuntu
@@ -186,10 +186,69 @@ docker compose ps -a
 sleep 20
 ```
 
+check container
+```
+docker compose ps -a
+```
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/508c1715-6bef-4529-b5b1-a18c63b2c878)
+
 - check curl access browser
 
 
 3. Integration to cloudflare tunnel
 > cloudflare digunakan untuk mem public server immich kita, agar bisa diakses dimana saja. Disini saya menggunakan cloudflare karena gratiss, kita hanya modal domain saja bisa mem public server private kita.
+
+Untuk register domain ke cloudflare bisa mengikut langkah berikut
+
+- register domain on cloudflare
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/49eedea5-0897-4602-8b06-f65a8266526e)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/58bb60d6-42df-4506-ae5d-c9444cd2afb9)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/a6b7e2e7-ad82-40d9-963d-28f6f09d7620)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/cc3bef1f-083c-44b7-baaa-83ab56bdeb7c)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/1a38fd7a-797a-4ff7-883d-e7b4f1ec98f1)
+
+- change nameserver on domain mengarah ke cloudflare
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/bd6f1d28-d261-4aa0-a4c0-636524db7086)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/e67993f6-feae-489e-9892-7540a4bf567d)
+
+jika sudah teregister maka akan seperti berikut
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/aabbe449-e8ab-4a68-998d-cf104a3b82c5)
+
+- create tunnel
+
+subscribe zero trust free
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/d38a9a4f-4ff8-4df9-9d34-bf729a33599d)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/9edc507c-6e1f-4301-b9ab-011af1227e87)
+
+- create name tunnel(bebas)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/e0d631a7-e2c9-4328-846d-9296592a491f)
+
+- install tunnel on server private
+> sesuaikan dengan os yang kalian gunakan
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/56b841ce-784e-477e-aa17-688361715a9f)
+
+> copy command yang sudah di sediakan setelah kita memilih os sebelumnya.
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/1484df1d-5bb4-4729-9ec2-c0662e072807)
+
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/69d13ef6-150a-40ff-a5ed-792d137e3da0)
+
+
+pastikan sudah seperti ini,
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/9a316e85-a5cb-4413-b127-64680aabb7ae)
 
 
