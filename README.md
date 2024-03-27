@@ -195,6 +195,18 @@ docker compose ps -a
 
 - check curl access browser
 
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/8f463f34-e098-42fe-addc-fd77f37dd014)
+
+> set email admin dan password
+
+- Login
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/9839690a-2d3f-4e08-a336-a9304314943d)
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/01d9fc2c-c3de-426b-a11a-705ebf9fce35)
+
+- testing upluod
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/a23523f1-0028-4928-9112-d52563495e6f)
 
 3. Integration to cloudflare tunnel
 > cloudflare digunakan untuk mem public server immich kita, agar bisa diakses dimana saja. Disini saya menggunakan cloudflare karena gratiss, kita hanya modal domain saja bisa mem public server private kita.
@@ -251,4 +263,24 @@ pastikan sudah seperti ini,
 
 ![image](https://github.com/galihtw04/photos-immch/assets/96242740/9a316e85-a5cb-4413-b127-64680aabb7ae)
 
+- next buat configure Route Traffic
 
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/364b2da1-54c0-4f4f-87c2-6bfc92559871)
+
+ - - Subdomain: pada parameter ini bebas bisa kalian isikan sesuai keinginan kalian
+   - Type: ini bisa kalian sesuaikan dengan protocol server kalian, pada immich server menggunakan http
+   - url: url yang digunakan adalah url untuk mengakses server immich, yang bisa diakses lewat server local
+
+> Jika menurut kalian sudah sesuai maka klik save tunnel yang ada pada pojok bawah kanan.
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/2f55eea8-4e4d-4e13-abd6-455c497e1571)
+
+- testing akses
+untuk akses, kita bisa mengguanakan url subdomain yang telah kita buat tadi.
+
+![image](https://github.com/galihtw04/photos-immch/assets/96242740/9e4aef03-f632-4267-9be4-816236a824cc)
+
+# Done !!!
+
+# Refrensi
+- https://immich.app/docs/
